@@ -2,6 +2,8 @@ package io.jjk.jcartadministrationback.dao;
 
 import io.jjk.jcartadministrationback.po.ProductDetail;
 
+import java.util.List;
+
 public interface ProductDetailMapper {
     int deleteByPrimaryKey(Integer productId);
 
@@ -16,4 +18,6 @@ public interface ProductDetailMapper {
     int updateByPrimaryKeyWithBLOBs(ProductDetail record);
 
     int updateByPrimaryKey(ProductDetail record);
+
+    void batchDelete(List<Integer> productIds);
 }
