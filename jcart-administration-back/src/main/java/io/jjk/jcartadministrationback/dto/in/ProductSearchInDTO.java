@@ -6,15 +6,6 @@ public class ProductSearchInDTO {
     private Double price;
     private Integer stockQuantity;
     private Byte status;
-    private Integer pageName;
-
-    public Integer getPageName() {
-        return pageName;
-    }
-
-    public void setPageName(Integer pageName) {
-        this.pageName = pageName;
-    }
 
     public String getProductCode() {
         return productCode;

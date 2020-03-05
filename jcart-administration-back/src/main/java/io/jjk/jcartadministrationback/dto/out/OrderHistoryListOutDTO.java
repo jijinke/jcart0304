@@ -1,18 +1,18 @@
 package io.jjk.jcartadministrationback.dto.out;
 
 public class OrderHistoryListOutDTO {
-    private Long orderHistortId;
+    private Long orderHistoryId;
     private Long timestamp;
     private Byte orderStatus;
     private String comment;
     private Boolean customerNotified;
 
-    public Long getOrderHistortId() {
-        return orderHistortId;
+    public Long getOrderHistoryId() {
+        return orderHistoryId;
     }
 
-    public void setOrderHistortId(Long orderHistortId) {
-        this.orderHistortId = orderHistortId;
+    public void setOrderHistoryId(Long orderHistoryId) {
+        this.orderHistoryId = orderHistoryId;
     }
 
     public Long getTimestamp() {

@@ -1,4 +1,4 @@
-package io.cjf.jcartadministrationback.vo;
+package io.jjk.jcartadministrationback.vo;
 
 public class AdministratorLoginVO {
     private Integer administratorId;

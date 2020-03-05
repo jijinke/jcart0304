@@ -1,7 +1,7 @@
 package io.jjk.jcartadministrationback.filter;
 
-import io.cjf.jcartadministrationback.constant.ClientExceptionConstant;
-import io.cjf.jcartadministrationback.exception.ClientException;
+import io.jjk.jcartadministrationback.constant.ClientExceptionConstant;
+import io.jjk.jcartadministrationback.exception.ClientException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;

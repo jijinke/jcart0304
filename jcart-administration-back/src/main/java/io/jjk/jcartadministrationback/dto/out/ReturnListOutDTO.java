@@ -7,7 +7,7 @@ public class ReturnListOutDTO {
     private String customerName;
     private String productCode;
     private String productName;
-    private Byte Status;
+    private Byte status;
     private Long createTimestamp;
     private Long updateTimestamp;
 
@@ -60,11 +60,11 @@ public class ReturnListOutDTO {
     }
 
     public Byte getStatus() {
-        return Status;
+        return status;
     }
 
     public void setStatus(Byte status) {
-        Status = status;
+        this.status = status;
     }
 
     public Long getCreateTimestamp() {

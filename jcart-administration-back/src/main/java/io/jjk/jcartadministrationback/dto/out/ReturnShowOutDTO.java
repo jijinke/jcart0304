@@ -14,7 +14,7 @@ public class ReturnShowOutDTO {
     private String productName;
     private Integer quantity;
     private Byte reason;
-    private Boolean opend;
+    private Boolean opened;
     private String comment;
     private Long createTimestamp;
     private Long updateTimestamp;
@@ -123,12 +123,12 @@ public class ReturnShowOutDTO {
         this.reason = reason;
     }
 
-    public Boolean getOpend() {
-        return opend;
+    public Boolean getOpened() {
+        return opened;
     }
 
-    public void setOpend(Boolean opend) {
-        this.opend = opend;
+    public void setOpened(Boolean opened) {
+        this.opened = opened;
     }
 
     public String getComment() {

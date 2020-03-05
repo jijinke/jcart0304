@@ -1,12 +1,11 @@
 package io.jjk.jcartadministrationback.dto.out;
 
-
 public class ReturnHistoryListOutDTO {
     private Integer returnHistoryId;
     private Long timestamp;
     private Byte returnStatus;
     private String comment;
-    private Boolean customerNotfied;
+    private Boolean customerNotified;
 
     public Integer getReturnHistoryId() {
         return returnHistoryId;
@@ -40,11 +39,11 @@ public class ReturnHistoryListOutDTO {
         this.comment = comment;
     }
 
-    public Boolean getCustomerNotfied() {
-        return customerNotfied;
+    public Boolean getCustomerNotified() {
+        return customerNotified;
     }
 
-    public void setCustomerNotfied(Boolean customerNotfied) {
-        this.customerNotfied = customerNotfied;
+    public void setCustomerNotified(Boolean customerNotified) {
+        this.customerNotified = customerNotified;
     }
 }

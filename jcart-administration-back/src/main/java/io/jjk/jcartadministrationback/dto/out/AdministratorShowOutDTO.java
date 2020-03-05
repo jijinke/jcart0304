@@ -1,18 +1,19 @@
 package io.jjk.jcartadministrationback.dto.out;
 
 public class AdministratorShowOutDTO {
-    private Integer adminstratorId;
+    private Integer administratorId;
     private String username;
+    private String realName;
     private String email;
     private String avatarUrl;
     private Byte status;
 
-    public Integer getAdminstratorId() {
-        return adminstratorId;
+    public Integer getAdministratorId() {
+        return administratorId;
     }
 
-    public void setAdminstratorId(Integer adminstratorId) {
-        this.adminstratorId = adminstratorId;
+    public void setAdministratorId(Integer administratorId) {
+        this.administratorId = administratorId;
     }
 
     public String getUsername() {
@@ -45,5 +46,13 @@ public class AdministratorShowOutDTO {
 
     public void setStatus(Byte status) {
         this.status = status;
+    }
+
+    public String getRealName() {
+        return realName;
+    }
+
+    public void setRealName(String realName) {
+        this.realName = realName;
     }
 }

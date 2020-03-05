@@ -1,26 +1,26 @@
 package io.jjk.jcartadministrationback.dto.in;
 
 public class ReturnSearchInDTO {
-    private Integer returId;
-    private long orderId;
+    private Integer returnId;
+    private Long orderId;
     private String customerName;
     private String productCode;
     private String productName;
     private Byte status;
 
-    public Integer getReturId() {
-        return returId;
+    public Integer getReturnId() {
+        return returnId;
     }
 
-    public void setReturId(Integer returId) {
-        this.returId = returId;
+    public void setReturnId(Integer returnId) {
+        this.returnId = returnId;
     }
 
-    public long getOrderId() {
+    public Long getOrderId() {
         return orderId;
     }
 
-    public void setOrderId(long orderId) {
+    public void setOrderId(Long orderId) {
         this.orderId = orderId;
     }
 
