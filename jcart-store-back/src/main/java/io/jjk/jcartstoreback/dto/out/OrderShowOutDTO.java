@@ -1,6 +1,7 @@
 package io.jjk.jcartstoreback.dto.out;
 
-import io.cjf.jcartstoreback.vo.OrderProductVO;
+import io.jjk.jcartstoreback.vo.OrderProductVO;
+import io.jjk.jcartstoreback.vo.OrderProductVO;
 
 import java.util.List;
 

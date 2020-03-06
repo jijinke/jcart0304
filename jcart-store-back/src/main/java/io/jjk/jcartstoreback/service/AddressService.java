@@ -1,6 +1,6 @@
 package io.jjk.jcartstoreback.service;
 
-import io.cjf.jcartstoreback.po.Address;
+import io.jjk.jcartstoreback.po.Address;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
 package io.jjk.jcartstoreback.service;
 
-import io.cjf.jcartstoreback.po.OrderHistory;
+import io.jjk.jcartstoreback.po.OrderHistory;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
 package io.jjk.jcartstoreback.service;
 
-import io.cjf.jcartstoreback.dto.in.CustomerRegisterInDTO;
-import io.cjf.jcartstoreback.po.Customer;
+import io.jjk.jcartstoreback.dto.in.CustomerRegisterInDTO;
+import io.jjk.jcartstoreback.po.Customer;
 
 public interface CustomerService {
 

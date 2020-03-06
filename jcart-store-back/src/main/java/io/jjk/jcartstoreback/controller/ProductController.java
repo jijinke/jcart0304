@@ -1,11 +1,11 @@
 package io.jjk.jcartstoreback.controller;
 
 import com.github.pagehelper.Page;
-import io.cjf.jcartstoreback.dto.in.ProductSearchInDTO;
-import io.cjf.jcartstoreback.dto.out.PageOutDTO;
-import io.cjf.jcartstoreback.dto.out.ProductListOutDTO;
-import io.cjf.jcartstoreback.dto.out.ProductShowOutDTO;
-import io.cjf.jcartstoreback.service.ProductService;
+import io.jjk.jcartstoreback.dto.in.ProductSearchInDTO;
+import io.jjk.jcartstoreback.dto.out.PageOutDTO;
+import io.jjk.jcartstoreback.dto.out.ProductListOutDTO;
+import io.jjk.jcartstoreback.dto.out.ProductShowOutDTO;
+import io.jjk.jcartstoreback.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

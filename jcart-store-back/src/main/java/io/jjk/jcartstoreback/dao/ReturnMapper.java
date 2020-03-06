@@ -1,6 +1,6 @@
 package io.jjk.jcartstoreback.dao;
 
-import io.cjf.jcartstoreback.po.Return;
+import io.jjk.jcartstoreback.po.Return;
 
 public interface ReturnMapper {
     int deleteByPrimaryKey(Integer returnId);

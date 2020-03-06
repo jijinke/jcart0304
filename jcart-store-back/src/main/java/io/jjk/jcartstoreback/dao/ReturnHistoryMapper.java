@@ -1,6 +1,6 @@
 package io.jjk.jcartstoreback.dao;
 
-import io.cjf.jcartstoreback.po.ReturnHistory;
+import io.jjk.jcartstoreback.po.ReturnHistory;
 
 public interface ReturnHistoryMapper {
     int deleteByPrimaryKey(Long returnHistoryId);

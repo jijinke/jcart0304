@@ -2,9 +2,9 @@ package io.jjk.jcartstoreback.service;
 
 
 import com.github.pagehelper.Page;
-import io.cjf.jcartstoreback.dto.out.ProductListOutDTO;
-import io.cjf.jcartstoreback.dto.out.ProductShowOutDTO;
-import io.cjf.jcartstoreback.po.Product;
+import io.jjk.jcartstoreback.dto.out.ProductListOutDTO;
+import io.jjk.jcartstoreback.dto.out.ProductShowOutDTO;
+import io.jjk.jcartstoreback.po.Product;
 
 public interface ProductService {
 

@@ -1,6 +1,6 @@
 package io.jjk.jcartstoreback.dao;
 
-import io.cjf.jcartstoreback.po.ProductDetail;
+import io.jjk.jcartstoreback.po.ProductDetail;
 import org.springframework.stereotype.Repository;
 
 @Repository

@@ -1,4 +1,4 @@
-package io.cjf.jcartstoreback.enumeration;
+package io.jjk.jcartstoreback.enumeration;
 
 public enum PayMethod {
     CashOnDelivery,

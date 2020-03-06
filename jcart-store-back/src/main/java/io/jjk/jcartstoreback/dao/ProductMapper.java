@@ -1,8 +1,8 @@
 package io.jjk.jcartstoreback.dao;
 
 import com.github.pagehelper.Page;
-import io.cjf.jcartstoreback.dto.out.ProductListOutDTO;
-import io.cjf.jcartstoreback.po.Product;
+import io.jjk.jcartstoreback.dto.out.ProductListOutDTO;
+import io.jjk.jcartstoreback.po.Product;
 import org.springframework.stereotype.Repository;
 
 @Repository

@@ -1,7 +1,7 @@
 package io.jjk.jcartstoreback.dao;
 
 import com.github.pagehelper.Page;
-import io.cjf.jcartstoreback.po.Order;
+import io.jjk.jcartstoreback.po.Order;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 

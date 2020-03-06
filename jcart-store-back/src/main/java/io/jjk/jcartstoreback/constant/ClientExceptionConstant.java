@@ -1,4 +1,4 @@
-package io.cjf.jcartstoreback.constant;
+package io.jjk.jcartstoreback.constant;
 
 public class ClientExceptionConstant {
 

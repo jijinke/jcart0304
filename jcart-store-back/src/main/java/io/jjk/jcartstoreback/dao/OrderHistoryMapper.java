@@ -1,6 +1,6 @@
 package io.jjk.jcartstoreback.dao;
 
-import io.cjf.jcartstoreback.po.OrderHistory;
+import io.jjk.jcartstoreback.po.OrderHistory;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
