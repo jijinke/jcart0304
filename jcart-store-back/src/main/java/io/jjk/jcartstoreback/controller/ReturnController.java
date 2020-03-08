@@ -118,8 +118,8 @@ public class ReturnController {
         return returnShowOutDTO;
     }
 
-    @PostMapping("/cancel")
-    public void cancel(@RequestBody Integer returnId) {
+    @PostMapping("/updateAction")
+    public void cancel(@RequestBody ReturnUpdateA) {
 
     }
 

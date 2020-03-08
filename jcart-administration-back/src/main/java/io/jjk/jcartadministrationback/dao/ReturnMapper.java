@@ -1,5 +1,6 @@
 package io.jjk.jcartadministrationback.dao;
 
+import com.github.pagehelper.Page;
 import io.jjk.jcartadministrationback.po.Return;
 
 public interface ReturnMapper {
@@ -14,4 +15,8 @@ public interface ReturnMapper {
     int updateByPrimaryKeySelective(Return record);
 
     int updateByPrimaryKey(Return record);
+
+    //    custom
+
+    Page<Return> search();
 }
