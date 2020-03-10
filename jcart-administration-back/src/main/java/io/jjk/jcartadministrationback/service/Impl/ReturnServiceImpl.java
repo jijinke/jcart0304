@@ -1,4 +1,4 @@
-package io.jjk.jcartadministrationback.service.serviceImpl;
+package io.jjk.jcartadministrationback.service.Impl;
 
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;

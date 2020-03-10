@@ -1,4 +1,4 @@
-package io.jjk.jcartadministrationback.service.serviceImpl;
+package io.jjk.jcartadministrationback.service.Impl;
 
 import com.alibaba.fastjson.JSON;
 import com.github.pagehelper.Page;

@@ -119,7 +119,7 @@ public class ReturnController {
     }
 
     @PostMapping("/updateAction")
-    public void cancel(@RequestBody ReturnUpdateA) {
+    public void cancel() {
 
     }
 
