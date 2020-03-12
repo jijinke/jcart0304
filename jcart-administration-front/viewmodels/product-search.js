@@ -22,7 +22,7 @@ var app = new Vue({
     methods: {
         handlePageChange(val){
             console.log('page change');
-            this.pageNum = val;
+            this.pageNum = 1;
             this.searchProduct();
         },
         handleClearClick() {

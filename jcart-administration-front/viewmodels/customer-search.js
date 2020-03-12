@@ -16,6 +16,19 @@ var app = new Vue({
     methods: {
         handlePageChange(val) {
             console.log('page changed');
+            this.pageNum = 1;
+            this.searchCustomer();
+        },
+        handleClearClick() {
+            console.log('clear click');
+            this.username = '';
+            this.realName = '';
+            this.mobile = '';
+            this.email = '';
+            this.selectedStatus = '';
+        },
+        handlePageChange(val) {
+            console.log('page changed');
             this.pageNum = val;
             this.searchCustomer();
         },
